@@ -1,0 +1,19 @@
+{
+  "name": "ielts-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "IELTS Dashboard with native frontend, local Node dev server, and Vercel-ready API routes backed by Supabase Postgres.",
+  "scripts": {
+    "dev": "npm run dev:local",
+    "dev:local": "node api/health.js",
+    "dev:vercel": "vercel dev",
+    "start": "node api/health.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "vercel": "^37.14.0"
+  }
+}
